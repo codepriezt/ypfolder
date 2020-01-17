@@ -11,6 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+
+
+
+Route::group(['prefix'=> ''] , function(){
+
+    Route::get('' , 'PageController@home')->name('index');
+    Route::get('/form' ,'PageController@form')->name('form');
+
 });
+
