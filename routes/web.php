@@ -18,6 +18,7 @@ Route::group(['prefix'=> ''] , function(){
 
     Route::get('' , 'PageController@home')->name('index');
     Route::get('/form' ,'PageController@form')->name('form');
+    Route::post('/post-form' , 'UserController@create')->name('form_post');
 
 });
 
