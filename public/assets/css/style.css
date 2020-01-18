@@ -858,8 +858,8 @@ hr {
   font-size: 30px;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -webkit-transition: -webkit-transform 0.5s 0.1s;
-  transition: transform 0.5s 0.1s;
+  -webkit-transition: -webkit-transform 0.5s 0.3s;
+  transition: transform 0.5s 0.2s;
   perspective: 9999px;
   color: #3e3e3e;
   margin: -40px 0 0 -40px;
@@ -911,7 +911,7 @@ hr {
 }
 .loader-style-1 .cube-face-top {
   -webkit-transform: rotateX(90deg) translate3d(0, 0, 40px);
-  transform: rotateX(90deg) translate3d(0, 0, 40px);
+  transform: rotateX(90deg) translate3d(0,Loa 0, 40px);
 }
 .loader-style-1 .cube-face-bottom {
   -webkit-transform: rotateX(-90deg) translate3d(0, 0, 40px);
