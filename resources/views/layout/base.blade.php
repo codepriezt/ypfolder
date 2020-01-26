@@ -21,6 +21,7 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
         <link rel="stylesheet" href="assets/css/color.css">
+        <link rel="stylesheet" href="assets/game/game.css">
         @yield('style-section')
     </head>
     <body>
@@ -46,6 +47,7 @@
         <script src="assets/js/jquery.ripples-min.js"></script>
         <script src="assets/js/jquery.downCount.js"></script>
         <script src="assets/js/custom-scripts.js"></script>
+        <script src="assets/game/question.js"></script>
     </body>	
 
 <!-- Mirrored from websroad.com/povert/index2.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Jan 2020 03:15:31 GMT -->
